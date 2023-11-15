@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <title>Nos produits</title>
+  </head>
+  <body>
+    <%- include('./views/components/header.ejs') %> 
+
+    <main>
+      <section>
+        <h2>Nos produits du moment</h2>
+        
+        <article>
+          <h3>titre</h3>
+          <img src="" alt="">
+          <p><%= product.description %></p>
+        </article>
+
+        <article></article>
+        <article></article>
+      </section>
+    </main>
+
+    <%-include('./views/components/footer.ejs') %>
+    <script src="/scripts/burger.js"></script>
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>
